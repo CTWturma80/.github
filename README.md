@@ -81,13 +81,13 @@ Após isso, muda automaticamente para **Concluída**.
 
 
 # 4. Estrutura Obrigatória de Pacotes
-model/ → Classes principais + interfaces
-exception/ → Exceções personalizadas
-database/ → Conexão JDBC
-repository/ → CRUD
-util/ → Funções auxiliares
-view/ → Menus (console)
-main/ → Método main()
+- model/ → Classes principais + interfaces
+- exception/ → Exceções personalizadas
+- database/ → Conexão JDBC
+- repository/ → CRUD
+- util/ → Funções auxiliares
+- view/ → Menus (console)
+- main/ → Método main()
 
 
 # 5. Etapas do Desenvolvimento
