@@ -35,14 +35,14 @@ Controle de permissões:
 | **Gerente**    | Acesso total, cria usuários, consulta todos os relatórios   |
 
 
-# 2.2 Gestão de Máquinas
+## 2.2 Gestão de Máquinas
 - Cadastro de máquina  
 - Status (funcionando, parada, manutenção)  
 - Relacionamento com setor  
 - Listagem por setor  
 
 
-# 2.3 Ordens de Serviço
+## 2.3 Ordens de Serviço
 Tipos:  
 - **Corretiva**  
 - **Preventiva**  
@@ -92,28 +92,28 @@ main/ → Método main()
 
 # 5. Etapas do Desenvolvimento
 
-### 5.1 Configuração Inicial
+## 5.1 Configuração Inicial
 - Criar banco MySQL, tabelas e conexão JDBC.  
 - Montar a estrutura de pacotes e modelos básicos.
 
-### 5.2 Autenticação e Perfis
+## 5.2 Autenticação e Perfis
 - Implementar login, CRUD de usuários e permissões por função.
 
-### 5.3 Cadastro e Gestão de Recursos
+## 5.3 Cadastro e Gestão de Recursos
 - CRUD de máquinas, setores e ordens de serviço.  
 - Atualizar o status das máquinas conforme as OS.
 
-### 5.4 Regra de Ocorrências
+## 5.4 Regra de Ocorrências
 - Detectar 3 OS corretivas → gerar Ocorrência automaticamente.  
 - Supervisor gera OS Preditiva → ocorrência entra em tratamento.  
 - Encerrar OS Preditiva → ocorrência é concluída.
 
-### 5.5 Relatórios
+## 5.5 Relatórios
 - Consultas e filtros para Gerente (OS, máquinas e ocorrências).
 
-### 5.6 Interface por Console
+## 5.6 Interface por Console
 - Menus por perfil e validação das entradas do usuário.
 
-### 5.7 Testes e Documentação
+## 5.7 Testes e Documentação
 - Testar regras, CRUDs e fluxos.  
 - Atualizar README, script SQL e entregar a versão final.
